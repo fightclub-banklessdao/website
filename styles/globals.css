@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.angled-gradient {
+  background-color: black;
+}
+
+.venture-gradient {
+  background-color: black;
+}
+@media (min-width: 1024px) {
+  .angled-gradient {
+    background: radial-gradient(
+        circle farthest-corner at left 150px,
+        #b93738,
+        black 30%
+      )
+      no-repeat;
+  }
+}
+
+@media (min-width: 1024px) {
+  .venture-gradient {
+    background: radial-gradient(
+        circle farthest-side at right 90%,
+        #b93738,
+        black 70%
+      )
+      no-repeat;
+  }
+}
+
+/* .hero-gradient{
+     background: radial-gradient(
+    circle farthest-corner at right 170%,
+    #4c0617,
+    black 50%
+  ) no-repeat;
+
+} */
+
+.membership-gradient {
+  background: radial-gradient(
+      ellipse farthest-corner at center 50%,
+      #b93738,
+      black 60%
+    )
+    no-repeat;
+}
+
+.linear-gradient-line {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 16, 19, 0) 2.74%,
+    #ff1013 52.89%,
+    rgba(255, 16, 19, 0) 101.47%
+  );
+}
+.mint-gradient {
+  background: radial-gradient(ellipse at center, #b93738, black 70%) no-repeat;
+}
