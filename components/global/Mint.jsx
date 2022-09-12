@@ -8,7 +8,7 @@ export default function Mint() {
   return (
     <>
       <div className="mint-gradient flex flex-col lg:flex-row justify-center items-center lg:gap-x-40 pt-20 lg:py-28">
-        <main className="w-64 flex justify-center items-center relative py-48 lg:py-60">
+        {/* <main className="w-64 flex justify-center items-center relative py-48 lg:py-60">
           <div style={{ zIndex: "100" }} className="w-80 lg:w-96 absolute">
             <div className="w-full h-full">
               <Image src={MintBox} alt="" />
@@ -46,7 +46,7 @@ export default function Mint() {
               Mint
             </a>
           </div>
-        </main>
+        </main> */}
         <main className="w-60 flex justify-center items-center relative py-60">
           <div style={{ zIndex: "100" }} className="w-80 lg:w-96 absolute">
             <div className="w-full h-full">
@@ -77,12 +77,12 @@ export default function Mint() {
               style={{
                 zIndex: "1000",
               }}
-              // rel="noreferrer noopener"
-              // target="_blank"
-              // href="https://black.fightclub.vc/"
+              rel="noreferrer noopener"
+              target="_blank"
+              href="https://black.fightclub.vc/"
               className="inline-block bg-gradient-to-r from-[#FF1013] to-[#8D292D] text-white p-3.5 px-8 rounded-full text-base font-medium my-4"
             >
-              Coming Soon
+              Mint
             </a>
           </div>
         </main>
