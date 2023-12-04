@@ -165,7 +165,7 @@ export default function Footer() {
               <h1 className="font-bold text-white text-2xl">Fight Club</h1>
             </div>
             <h1 className="text-base font-normal text-[#cacaca]">
-              © Bankless DAO. 2021
+              © Fight Club. 2023
             </h1>
           </div>
           <div className="flex justify-center items-center gap-3 lg:gap-10 pb-10">
